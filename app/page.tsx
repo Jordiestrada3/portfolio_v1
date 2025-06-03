@@ -14,7 +14,59 @@ export default function Home() {
         
       </header> */}
       <main>
-        <section style={{backgroundColor:'lightgrey', width:'100vw', height:'100vh', display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center' }}>
+        <section style={{ backgroundColor: 'lightgrey', width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+          <h2>Hi, my name is</h2>
+          <h1>Jordi</h1>
+          <h2>I'm a full stack developer</h2>
+        </section>
+        <section style={{ width: '100vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+          <div style={{
+            borderWidth: '1px', display: 'flex',
+            gap: 50,
+            width: '80%',
+            alignItems: 'flex-start',
+          }}>
+            <h2 style={{
+              borderWidth: '1px',
+              width: '50%',
+              fontSize: '80px',
+              textAlign: 'end',
+              position: 'sticky',
+              top: '50%',
+              transform: 'translateY(-50%)',
+              
+              // alignSelf: 'flex-start',
+            }}
+            >
+              About Me
+            </h2>
+            <div class="vertical-line"></div>
+            <div style={{ width: '50%', fontSize: 24 }}>
+              <p style={{ fontWeight: 100 }}>
+                Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
+
+                I've been working with React and Node for the past two years, building web applications that are fast, scalable and user-friendly.
+
+                I like solving problems, learning new things, and experimenting with different technologies. When I'm not coding, I'm probably working on a side project or exploring something new.
+              </p>
+              <p style={{ fontWeight: 100 }}>
+                Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
+
+                I've been working with React and Node for the past two years, building web applications that are fast, scalable and user-friendly.
+
+                I like solving problems, learning new things, and experimenting with different technologies. When I'm not coding, I'm probably working on a side project or exploring something new.
+              </p>
+              <p style={{ fontWeight: 100 }}>
+                Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
+
+                I've been working with React and Node for the past two years, building web applications that are fast, scalable and user-friendly.
+
+                I like solving problems, learning new things, and experimenting with different technologies. When I'm not coding, I'm probably working on a side project or exploring something new.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section style={{ backgroundColor: 'lightgrey', width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <h2>Hi, my name is</h2>
           <h1>Jordi</h1>
           <h2>I'm a full stack developer</h2>
@@ -28,6 +80,6 @@ export default function Home() {
           <li>ceba</li>
         </ul>
       </footer> */}
-    </div>
+    </div >
   );
 }
