@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 export default function Home() {
   return (
     <div>
@@ -19,28 +20,25 @@ export default function Home() {
           <h1>Jordi</h1>
           <h2>I'm a full stack developer</h2>
         </section>
-        <section style={{ width: '100vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <section style={{ width: '100vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '30px' }}>
           <div style={{
-            borderWidth: '1px', display: 'flex',
+            display: 'flex',
             gap: 50,
             width: '80%',
             alignItems: 'flex-start',
           }}>
             <h2 style={{
-              borderWidth: '1px',
+
               width: '50%',
               fontSize: '80px',
               textAlign: 'end',
               position: 'sticky',
-              top: '50%',
-              transform: 'translateY(-50%)',
-              
-              // alignSelf: 'flex-start',
+              top: '40%',
             }}
             >
               About Me
             </h2>
-            <div class="vertical-line"></div>
+            <div className="vertical-line"></div>
             <div style={{ width: '50%', fontSize: 24 }}>
               <p style={{ fontWeight: 100 }}>
                 Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
