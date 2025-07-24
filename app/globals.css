@@ -30,6 +30,11 @@ h1 {
   font-family: var(--font-anton), sans-serif;
 }
 
+.main-title {
+  font-size: 150px;
+  font-family: var(--font-anton), sans-serif;
+}
+
 h2 {
   font-size: 110px;
   font-family: var(--font-anton), sans-serif;
@@ -72,6 +77,8 @@ p {
 
 .tech-set-section {
   background-color: #FCFFF9;
+  width: 100vw;
+  height: 100vh;
   color: #191A19;
   width: 100vw;
   display: flex;
@@ -79,6 +86,14 @@ p {
   justify-content: center;
   align-items: center;
   padding: 30px;
+}
+
+.skill-set-title {
+  font-size: 110px;
+  font-family: var(--font-anton), sans-serif;
+  /* position: sticky;
+  top: 40%;
+  width: 50% */
 }
 
 .vertical-line {

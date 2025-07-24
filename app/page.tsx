@@ -1,3 +1,6 @@
+import { LettersPullUp } from "./animations/letters-pull-up";
+import { TypingEffect } from "./animations/typing-effect";
+import { WordsPullUp } from "./animations/words-pull-up";
 
 export default function Home() {
   return (
@@ -15,7 +18,9 @@ export default function Home() {
       <main>
         <section className="presentation-section">
           <h3>Hi, my name is</h3>
-          <h1>Jordi</h1>
+          <div style={{ padding: 70 }}>
+            <LettersPullUp text='Jordi' className="main-title"></LettersPullUp>
+          </div>
           <h3>I'm a full stack developer</h3>
         </section>
         <section className="about-me-section" >
@@ -32,7 +37,8 @@ export default function Home() {
               top: '40%',
             }}
             >
-              About Me
+              <WordsPullUp text="About Me" className="skill-set-title"></WordsPullUp>
+              {/* About Me */}
             </h2>
             <div className="vertical-line"></div>
             <div style={{ width: '50%', gap: 20, flexDirection: 'column', display: 'flex' }}>
@@ -67,27 +73,27 @@ export default function Home() {
             alignItems: 'flex-start',
           }}>
             <div style={{ width: '50%', display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
-              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'lightgrey', borderRadius: 10 }} />
             </div>
             <div className="vertical-line"></div>
             <h2 style={{
@@ -96,14 +102,12 @@ export default function Home() {
               width: '50%'
             }}
             >
-              Tech Set
+              <WordsPullUp text="Skill Set" className="skill-set-title"></WordsPullUp>
+              {/* Skill Set */}
             </h2>
 
 
           </div>
-        </section>
-        <section style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-
         </section>
       </main>
       {/* <footer>
