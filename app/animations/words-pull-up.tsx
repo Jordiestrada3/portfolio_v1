@@ -10,7 +10,7 @@ export function WordsPullUp({
   text: string;
   className?: string;
 }) {
-  const splittedText = text.split('  ');
+  const splittedText = text.split(' ');
  
   const pullupVariant = {
     initial: { y: 20, opacity: 0 },
@@ -18,12 +18,12 @@ export function WordsPullUp({
       y: 0,
       opacity: 1,
       transition: {
-        delay: i * 0.1,
+        delay: i * 0.2,
       },
     }),
   };
   const ref = React.useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, { once: false });
   return (
     <div className="flex">
       {splittedText.map((current, i) => (

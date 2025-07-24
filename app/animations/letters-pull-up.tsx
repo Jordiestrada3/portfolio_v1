@@ -23,7 +23,7 @@ export function LettersPullUp({
     }),
   };
   const ref = React.useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, { once: false });
   return (
     <div className="flex justify-center">
       {splittedText.map((current, i) => (
