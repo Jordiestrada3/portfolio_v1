@@ -37,6 +37,25 @@ h2 {
   color: #171717;
 }
 
+.presentation-section {
+  background-color: lightgrey;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.about-me-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
 .vertical-line {
   width: 1px;
   height: 300px;

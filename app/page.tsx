@@ -15,12 +15,12 @@ export default function Home() {
         
       </header> */}
       <main>
-        <section style={{ backgroundColor: 'lightgrey', width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <section className="presentation-section">
           <h2>Hi, my name is</h2>
           <h1>Jordi</h1>
           <h2>I'm a full stack developer</h2>
         </section>
-        <section style={{ width: '100vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '30px' }}>
+        <section className="about-me-section" >
           <div style={{
             display: 'flex',
             gap: 50,
@@ -28,7 +28,6 @@ export default function Home() {
             alignItems: 'flex-start',
           }}>
             <h2 style={{
-
               width: '50%',
               fontSize: '80px',
               textAlign: 'end',
