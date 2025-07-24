@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 
 export default function Home() {
   return (
@@ -16,9 +14,9 @@ export default function Home() {
       </header> */}
       <main>
         <section className="presentation-section">
-          <h2>Hi, my name is</h2>
+          <h3>Hi, my name is</h3>
           <h1>Jordi</h1>
-          <h2>I'm a full stack developer</h2>
+          <h3>I'm a full stack developer</h3>
         </section>
         <section className="about-me-section" >
           <div style={{
@@ -29,7 +27,6 @@ export default function Home() {
           }}>
             <h2 style={{
               width: '50%',
-              fontSize: '80px',
               textAlign: 'end',
               position: 'sticky',
               top: '40%',
@@ -38,22 +35,22 @@ export default function Home() {
               About Me
             </h2>
             <div className="vertical-line"></div>
-            <div style={{ width: '50%', fontSize: 24 }}>
-              <p style={{ fontWeight: 100 }}>
+            <div style={{ width: '50%', gap: 20, flexDirection:'column', display: 'flex' }}>
+              <p>
                 Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
 
                 I've been working with React and Node for the past two years, building web applications that are fast, scalable and user-friendly.
 
                 I like solving problems, learning new things, and experimenting with different technologies. When I'm not coding, I'm probably working on a side project or exploring something new.
               </p>
-              <p style={{ fontWeight: 100 }}>
+              <p>
                 Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
 
                 I've been working with React and Node for the past two years, building web applications that are fast, scalable and user-friendly.
 
                 I like solving problems, learning new things, and experimenting with different technologies. When I'm not coding, I'm probably working on a side project or exploring something new.
               </p>
-              <p style={{ fontWeight: 100 }}>
+              <p>
                 Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
 
                 I've been working with React and Node for the past two years, building web applications that are fast, scalable and user-friendly.
@@ -94,7 +91,6 @@ export default function Home() {
             </div>
             <div className="vertical-line"></div>
             <h2 style={{
-              fontSize: '80px',
               position: 'sticky',
               top: '40%',
               width: '50%'
@@ -107,9 +103,7 @@ export default function Home() {
           </div>
         </section>
         <section style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-          <h2>Hi, my name is</h2>
-          <h1>Jordi</h1>
-          <h2>I'm a full stack developer</h2>
+
         </section>
       </main>
       {/* <footer>

@@ -26,19 +26,30 @@ body {
 }
 
 h1 {
-  font-size: 70px;
-  font-weight: 800;
-  color: #171717;
+  font-size: 150px;
+  font-family: var(--font-anton), sans-serif;
 }
 
 h2 {
+  font-size: 110px;
+  font-family: var(--font-anton), sans-serif;
+}
+
+h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #171717;
+  font-family: var(--font-inter), sans-serif
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: var(--font-inter), sans-serif
 }
 
 .presentation-section {
-  background-color: lightgrey;
+  background-color: #F58220;
+  color: #FEF3E9;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -49,6 +60,8 @@ h2 {
 
 
 .about-me-section {
+  background-color: #FEF3E9;
+  color: #190D03;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -58,7 +71,8 @@ h2 {
 }
 
 .tech-set-section {
-  background-color: lightgrey;
+  background-color: #F58220;
+  color: #FEF3E9;
   width: 100vw;
   display: flex;
   flex-direction: column;
