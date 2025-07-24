@@ -47,7 +47,18 @@ h2 {
   align-items: center
 }
 
+
 .about-me-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.tech-set-section {
+  background-color: lightgrey;
   width: 100vw;
   display: flex;
   flex-direction: column;

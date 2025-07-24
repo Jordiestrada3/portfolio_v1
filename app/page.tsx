@@ -63,7 +63,50 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section style={{ backgroundColor: 'lightgrey', width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <section className="tech-set-section" >
+          <div style={{
+            display: 'flex',
+            gap: 50,
+            alignItems: 'flex-start',
+          }}>
+            <div style={{ width: '50%', display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+              <div style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 10 }} />
+            </div>
+            <div className="vertical-line"></div>
+            <h2 style={{
+              fontSize: '80px',
+              position: 'sticky',
+              top: '40%',
+              width: '50%'
+            }}
+            >
+              Tech Set
+            </h2>
+
+
+          </div>
+        </section>
+        <section style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <h2>Hi, my name is</h2>
           <h1>Jordi</h1>
           <h2>I'm a full stack developer</h2>
