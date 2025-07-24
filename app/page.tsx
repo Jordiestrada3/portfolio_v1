@@ -35,7 +35,7 @@ export default function Home() {
               About Me
             </h2>
             <div className="vertical-line"></div>
-            <div style={{ width: '50%', gap: 20, flexDirection:'column', display: 'flex' }}>
+            <div style={{ width: '50%', gap: 20, flexDirection: 'column', display: 'flex' }}>
               <p>
                 Hey, I'm Jordi Estrada Ylla, a Full Stack Developer.
 
