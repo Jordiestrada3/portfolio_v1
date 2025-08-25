@@ -66,6 +66,7 @@ p {
 
 .about-me-section {
   background-color: #FCFFF9;
+  margin: 10;
   color: #191A19;
   width: 100vw;
   display: flex;
@@ -77,6 +78,7 @@ p {
 
 .tech-set-section {
   background-color: #FCFFF9;
+    margin: 10;
   width: 100vw;
   height: 100vh;
   color: #191A19;
